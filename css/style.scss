@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'VT323', monospace;
+    color: #4AF626;
+    background-color: black ;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+
+}    
+
+#headerBox1 {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+ 
+        h1 {
+            margin: auto;
+            padding: 10px;
+            color: #4AF626;
+        }
+
+        p1 {
+            color: #4AF626;
+        }
+    
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+}
+
+#innerHeaderBox2 {
+    background-color: black;
+}
+
+#selectFighter {
+    display: grid;
+    grid-template-columns: .25fr .25fr .25fr .25fr ;
+    grid-template-rows: .5fr .5fr .5fr;
+    height: 500px;  
+    background-color: black;
+    color: black;
+    width: 100%;
+    
+}
+
+#fighter1 {
+background-image: url("../images/synthpic5.png");
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+#fighter2 {
+    background-image: url("../images/synthpic2.jpeg");    height: 100%;
+    width: 100%;
+    img {
+        margin-right: 100px; 
+    }
+
+}
+
+
+#fighter3 {
+    background-image: url("../images/synthpic4.jpg");
+
+}
+ #fighter4 {
+    background-image: url("../images/synthpic3.jpg");
+ }
+
+ #row2-1 {
+     color: white;
+     text-align: center;
+ }
+ 
+ #row2-2 {
+    color: white;
+    text-align: center;
+}
+
+#row2-3 {
+    color: white;
+    text-align: center;
+}
+
+#row2-4 {
+    color: white;
+    text-align: center;
+}
+
+#yourFighter {
+    display: grid;
+    grid-template-rows: 3fr 3fr;
+    grid-template-columns: 3fr 3fr;
+    height: 900px;
+    background-size: contain; 
+
+}
+
+#box1 {
+
+}
+
+#box2 {
+   display: grid;
+   grid-template-rows: 75px 200px 200px; 
+}
+
+#box3 {
+    align-items: center;
+}
+
+#box4 {
+    background-image: url("../images/finalboss.jpg");
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
