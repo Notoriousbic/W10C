@@ -1,134 +1,45 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: 'VT323', monospace;
-  color: #4AF626;
-  background-color: black;
-}
-
-body img {
-  height: 100%;
-  width: 100%;
-}
-
-#headerBox1 {
-  display: -ms-grid;
-  display: grid;
-  width: 100%;
-  height: 150px;
-  -ms-grid-columns: 1fr 2fr 1fr;
-      grid-template-columns: 1fr 2fr 1fr;
-  text-align: center;
-}
-
-#headerBox1 h1 {
-  margin: auto;
-  padding: 10px;
-  color: #4AF626;
-}
-
-#headerBox1 p1 {
-  color: #4AF626;
-}
-
-#headerBox1 img {
-  height: 100%;
-  width: 100%;
-}
-
-#innerHeaderBox2 {
-  background-color: black;
-}
-
-#selectFighter {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: .25fr .25fr .25fr .25fr;
-      grid-template-columns: .25fr .25fr .25fr .25fr;
-  -ms-grid-rows: .5fr .5fr .5fr;
-      grid-template-rows: .5fr .5fr .5fr;
-  height: 500px;
-  background-color: black;
-  color: black;
-  width: 100%;
-}
-
-#fighter1 {
-  background-image: url("../images/synthpic5.png");
-}
-
-#fighter1 img {
-  height: 100%;
-  width: 100%;
-}
-
-#fighter2 {
-  background-image: url("../images/synthpic2.jpeg");
-  height: 100%;
-  width: 100%;
-}
-
-#fighter2 img {
-  margin-right: 100px;
-}
-
-#fighter3 {
-  background-image: url("../images/synthpic4.jpg");
-}
-
-#fighter4 {
-  background-image: url("../images/synthpic3.jpg");
-}
-
-#row2-1 {
-  color: white;
-  text-align: center;
-}
-
-#row2-2 {
-  color: white;
-  text-align: center;
-}
-
-#row2-3 {
-  color: white;
-  text-align: center;
-}
-
-#row2-4 {
-  color: white;
-  text-align: center;
-}
-
-#yourFighter {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 3fr 3fr;
-      grid-template-rows: 3fr 3fr;
-  -ms-grid-columns: 3fr 3fr;
-      grid-template-columns: 3fr 3fr;
-  height: 900px;
-  background-size: contain;
-}
-
-#box2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 75px 200px 200px;
-      grid-template-rows: 75px 200px 200px;
-}
-
-#box3 {
+  text-align: left;
+  justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-#box4 {
-  background-image: url("../images/finalboss.jpg");
-  background-repeat: no-repeat;
+#pokemons {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+  width: 250px;
+  height: 25vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  padding-left: 100px;
+}
+
+#war {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#synths {
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */
